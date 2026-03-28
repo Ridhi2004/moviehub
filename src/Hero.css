@@ -1,0 +1,137 @@
+.hero-section {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.hero-details {
+    padding: 10px;
+    max-width: 500px;
+    height: 250px;
+    background-color: transparent;
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.inline {
+    display: flex;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #ffe400;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.watch {
+    display: flex;
+    gap: 20px;
+}
+
+.watchnow {
+    text-decoration: none;
+    background-color: #ffe400;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.watchlist {
+    text-decoration: none;
+    border: 2px solid rgb(44, 30, 30);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.watchlist:hover {
+    color: #ffe400;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 70vh;
+    padding: 0 10px; 
+  }
+
+  .hero-details {
+    position: relative; 
+    left: 0;
+    top: unset;
+    max-width: 100%; 
+    width: 100%;     
+    margin: 0 auto;
+    gap: 10px;
+    padding: 0 10px; 
+    text-align: center; 
+    box-sizing: border-box; 
+  }
+
+  .inline {
+    flex-direction: column; 
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap; 
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 24px; 
+    word-break: break-word; 
+  }
+
+  .description {
+    font-size: 14px; 
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .watch {
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+  }
+
+  .watchnow,
+  .watchlist {
+    width: 120px; 
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  .feature {
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+}
