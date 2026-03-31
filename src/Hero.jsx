@@ -54,8 +54,8 @@ return (
     <div className='hero-details'>
       <div className='inline'>
         <span className='feature'>FEATURED</span>
-        <span className='rate'>{movie.vote_average}</span>
-        <span className='date'>{movie.release_date}</span>
+        <span className='rate'> ⭐{movie.vote_average}</span>
+        <span className='date'>📅{movie.release_date}</span>
       </div>
 
       <h1 className='title'>{movie.title}</h1>
@@ -67,8 +67,8 @@ return (
       </p>
 
       <div className='watch'>
-        <a href="" className='watchnow'>Watch Now</a>
-        <a href="" className='watchlist'>Add to WatchList</a>
+        <a href="" className='watchnow'>Watch Now ▶</a>
+        <a href="" className='watchlist'>Add to WatchList </a>
       </div>
     </div>
   </div>

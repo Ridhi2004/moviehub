@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import "./Trending.css";
 
 const TopRated = () => {
     const[movies,setMovies]=useState([])
