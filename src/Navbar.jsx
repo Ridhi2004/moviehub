@@ -14,7 +14,7 @@ const Navbar = ({ searchQuery, setSearchQuery, movies }) => {
         <a href="/" className='nav-link'>Home</a>
         <a href="/Movies" className='nav-link'>Movies</a>
         <a href="/Shows" className='nav-link'>Shows</a>
-        <a href="/Home" className='nav-link'>Genre</a>
+        <a href="/" className='nav-link'>Genre</a>
         <a href="/" className='nav-link'>Trending</a>
         <a href="/" className='nav-link'>Top Rated</a>
       </div>
